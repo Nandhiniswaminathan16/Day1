@@ -1,0 +1,18 @@
+ var Person={
+      "name":"N",
+      "age":"5",
+      "location":"Japan",
+      
+  };
+ 
+  Person.favcolor=["red","black","white"];
+  console.log(Person);
+  
+  for (var i=0;i<Person.favcolor.length;i++){
+      console.log(Person.favcolor[i]);
+  }
+ for (var x in Person){
+     console.log(Person[x]);
+ }
+ 
+ 
