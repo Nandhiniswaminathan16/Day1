@@ -1,0 +1,41 @@
+  var resume=[
+{
+   "name" : "Nandhini swaminathan",
+   "email id" : "nandhiniswaminathan16@gmail.com",
+   "DOB" : "16/09/1999",
+},
+{
+   "objective":"I am looking for an opportunity in a reputed organization which will help me deliver my best that upgrade my skills and to help the growth of the organization",
+   },
+   {
+   "EXPERIENCE":"ksb limited,Coimbatore",
+   Internship Trainee (Technical Sales Support) 
+Establishing the technical needs of the customer and suggesting appropriate products. Explaining complex technical information to customers in a way that is easily understandable. Following up with customers and resolving any issues that may arise. Compiling proposals and reports related to technical products. Reporting to management about sales made. Updating records of customer communications and contact information.   
+},
+   {
+       
+    "educational qualifications"
+"undergraduate degree":"KUMARAGURU COLLEGE OF TECHNOLOGY BE Mechanical Engineering",
+“diploma”:”Sakthi polytechnic college”,
+   "sslc":"st.mary matric higher sec school",
+   },
+   {
+   "skills":"communication skills,leadership skills,handles pressure,beng organized,problem solving skills",
+   },
+   {
+   "software skills":"full stack developement",
+   },
+   {
+   "achivements and awards":"Received department topper award in diploma at Sakthi Polytechnic College",
+},
+{
+"language":"english and tamil and hindi",
+},
+{
+    [
+"hobbies":"playing boxing","listening music","travelling".
+    ]
+}
+];
+for(var i=0; i<resume.length; i++);
+console.log(resume[i])
