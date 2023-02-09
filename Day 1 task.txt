@@ -1,0 +1,42 @@
+Http1.1:
+
+Http 1.1 version was introduced in 1997. The is the major version of HTTP network protocol used by the World Wide Web. Http is a top level application protocol that exchanges information between a client computer and a local and remote web server.  This version introduces many performance enhancements like caching mechanism, transfer encoding, keepalive connections, byte range requests, and request pipelining. 
+Http 1.1 provided support for chunk transfer that allowed streaming of content.
+Cache control to specify policies in both requests and responses
+The upgrade header indicates a preference from the client to switch to a more preferred protocol.
+
+
+Http2:
+Http 2 is the new version of HTTP 1.1. The protocol introduced back in February 2015 by the Internet Engineering Task Force (IETF) Http working group. The newish protocol transport data to drastically speed up the web and can help boost your Search Engine Optimization. It uses new technologies to provide full multiplexing connections. I would say Http 2 is much needed upgrade to the Http protocol; it manages the communication between browsers and web servers. Moreover, Http 2 provides a dramatic speed boost for the website.
+Http 2 version brings the concept of multiplexing to alternate the requests and responses without head-of-line blocking and does so over a single TCP connection.
+Http 2 server also pushes and request proactively into client caches In lieu of waiting for a new request for each resource.
+Package blocking
+Binary protocols
+High-level compatibility with Http 1.1 such as methods, URLs, status codes, and header fields.
+
+Major performance comparison between Http 1.1 and Http 2 :
+
+Web traffic:
+Http 1.1 – It provides faster delivery of web pages and reduces web traffic if you compare it to Http 1.0. However, there is an increased risk of network congestion.
+
+Http 2 – The Http 2 version utilizes multiplexing and server pushes to effectively reduce the page load time by a greater margin along with being sensitive to network delays.
+
+Performance optimization:
+Http 1.1 – Some of the optimizations used is Http 1.1 version are sprinting, inlining, domain shrading, and concatenating.
+
+Http 2 – This protocol version removes the need for unnecessary optimization hacks.
+
+Status code:
+Http 1.1 – This protocol introduces a warning header field to carry additional information about the status of a message. It can define 24 status codes, error reporting is quicker and more efficient.
+
+Http 2 – It brings the fundamental semantics of HTTP like headers, and status code remains the same.
+
+Authentication mechanism:
+Http 1.1 – Protocol Http 1.1 is much secured than Http 1.0 because it uses digest authentication and NTLM authentication.
+
+Http 2.2 – The security concern in Http 2 version is also good and almost same as Http 1.1. Rather Http 2 is better equipped to deal with security threats because of the new features it brings. For example, new TLS feature like connection error of type inadequate security.
+
+Security:
+Http 1.1 – In this version, SSL or secure sockets layer is not required but recommended. Digest authentication is an improvement over Http 1.0 which is now being used in Http 1.1. Moreover, Https uses SSL/TLS for secure encrypted communication.
+
+Http 2 – In Http 2 protocol, security is not at all recommended. It is because the security is encrypted since all almost all clients demand traffic to be encrypted. It also has minimum standards and minimum key size for encryption.
